@@ -5,6 +5,17 @@ public class Pessoa {
     protected String email;
 
 
+
+    public Pessoa(String nome, int idade, String email) {
+        this.nome = nome;
+        this.idade = idade;
+        this.email = email;
+    }
+
+    public Pessoa() {
+
+    }
+
     public String getNome() {
         return nome;
     }

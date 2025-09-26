@@ -3,6 +3,19 @@ public class Professor extends Pessoa {
     private String turno;
     private double horaTrabalhada, valorHoraTrabalhada, salario;
 
+    public Professor(String nome, int idade, String email, String turno, double horaTrabalhada, double ValorHoraTrabalhada, double salario) {
+        super(nome, idade, email);
+        this.turno = turno;
+        this.horaTrabalhada = horaTrabalhada;
+        this.valorHoraTrabalhada = ValorHoraTrabalhada;
+        this.salario = salario;
+
+    }
+
+    public Professor() {
+
+    }
+
     public String getCursoMinistrar() {
         return cursoMinistrar;
     }

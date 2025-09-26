@@ -8,6 +8,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         List<Aluno> alunos = new ArrayList<>();
         List<Professor> professores = new ArrayList<>();
+        Aluno a2 = new Aluno();
 
         String sair = "n";
         int menu;
